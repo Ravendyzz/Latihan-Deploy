@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Responsive</title>
+</head>
+<body>
+    <div class="landing_page">
+        <h1 id="text_landing">Hello welcome to my website </h1>
+    </div>
+    <div class="navbar_menu">
+        <a href="#" id="logo_"><h3>NICODING</h3></a>
+        <a href="#sec1" >About me</a>
+        <a href="#sec2" >Project</a>
+        <a href="#sec3" >Contact Us</a>
+        <a href="" id="tbl-gry">Sign Up</a>
+        <div class="dropdown">
+            <button onclick = "myFunction()" class="drpdwn-btn" class="klik"><img class="klik" src="sidemenu.png" alt=""></button>
+            <div id="myDropdown"  class="dropdown-content">
+                <a href="#sec1">About me</a>
+                <a href="#sec2">Project</a>
+                <a href="#sec3">Contact Us</a>
+              </div>
+        </div>
+        </div>
+    </div>
+    <section id="sec1">
+        <div class="about_me">
+            <h2>About me</h2>
+            <img id="my_foto" src="3x4 3.jpg" alt="">
+            <p id="text_about_me">Hello, let me introduce myself, my name Nicholaus Adhyatma
+                Surya Kusuma, you can call me Nicho. I'm from Surabaya and i now IT college student at Politeknik Elektronika
+                Negri Surabaya (PENS). This my portofolio web, thanks for visiting my website :).
+            </p>
+        </div>
+    </section>
+    <section id="sec2">
+        <div class="project">
+            <h2>My Project</h2>
+        <div class="card1">
+            <img src="setif1.png" alt="">
+            <p class="text1">My Sertificate for completing Course Javascript Intermediate</p>
+        </div>
+        <div class="card1">
+            <img src="sertif2.png" alt="">
+            <p class="text1">My Sertificate for completing Javascript Dasar</p>
+        </div>
+        </div>
+    </section>
+    <section id="sec3">
+        <div class="contact_">
+            <h2>Contact Us</h2>
+            <form action="">
+                <label for="name">Username</label>
+                <input type="text" name="" id="name" placeholder="Fullname" required>
+                <label for="emaill">E-mail</label>
+                <input type="email" name="" id="emaill" placeholder="E-mail" required>
+                <label for="msg">Massage</label>
+                <textarea name="" id="" cols="80" rows="10" placeholder="Massage"></textarea>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer><p>Follow my social media :</p><a href="https://www.instagram.com/_nichooo._/"><img src="instagram.png" alt=""></a></footer>
+    <script src="index.js"></script>
+</body>
+</html>
